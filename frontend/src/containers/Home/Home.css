@@ -1,0 +1,10 @@
+.home-layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px 10px;
+}

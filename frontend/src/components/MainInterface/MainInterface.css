@@ -1,0 +1,62 @@
+.main-interface {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .main-interace-head{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .main-interface p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    align-self: flex-start;
+    gap: 10px;
+  }
+
+  .main-interface .deposit-btn-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .logout-btn {
+    background-color: #FF6347;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .logout-btn:disabled {
+    background-color: #ddd;
+    color: #555;
+    cursor: not-allowed;
+  }
+
+.jobs-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-self: stretch;
+  align-items: stretch;
+  justify-content: center;
+  overflow: auto;
+}

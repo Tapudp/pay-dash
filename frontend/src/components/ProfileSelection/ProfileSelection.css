@@ -1,0 +1,39 @@
+.profile-selection {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 20px;
+  align-self: stretch;
+  position: relative;
+}
+
+.profile-selection h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.profile-selection select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.profile-selection button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-selection button:disabled {
+  background-color: #ddd;
+  color: #555;
+  cursor: not-allowed;
+}

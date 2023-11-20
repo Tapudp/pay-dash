@@ -1,0 +1,27 @@
+.error-notification-container {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    align-self: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .error-message {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .error-details {
+    margin-top: 10px;
+  }
+  
+  .error-details p {
+    margin: 5px 0;
+  }
