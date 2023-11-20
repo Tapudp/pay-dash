@@ -24,6 +24,24 @@ The frontend follows a structured organization:
 
 This structure aims to enhance readability, maintainability, and scalability of both the backend and frontend components.
 
+## Setup
+
+- To run the API server,
+
+```
+npm run seed
+npm install
+npm start
+```
+
+- Move to frontend folder and start the front-end app
+
+```
+cd frontend
+npm install
+npm start
+```
+
 ## Future Enhancements
 
 - **Common Customized Request Validator:** Implement a common request validator for standardized input validation.
